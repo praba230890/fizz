@@ -1,0 +1,10 @@
+note Function to greet someone
+
+how to greet name
+    say "Hello " + name + "!"
+    say "Welcome to Fizz!"
+end
+
+greet "Alice"
+greet "Bob"
+greet "Charlie"

@@ -1,0 +1,16 @@
+note A simple guessing game
+
+put 7 into secret
+put 5 into guess
+
+if guess == secret
+    say "You got it!"
+otherwise
+    if guess > secret
+        say "Too high!"
+    otherwise
+        say "Too low!"
+    end
+end
+
+say "Game over"

@@ -1,0 +1,33 @@
+note Custom Types Example - Making code more fun and readable!
+
+note Define our own type names
+biscuits are numbers
+cookies are numbers
+candies are numbers
+name is letters
+age is a number
+
+note Now use them!
+put 5 biscuits into pocket
+put 3 cookies into jar
+put 10 candies into bag
+
+put "Iniya" into name
+put 8 age into myAge
+
+say "I have " + pocket + " biscuits in my pocket"
+say "There are " + jar + " cookies in the jar"
+say "My name is " + name
+
+note Type checking still works
+if pocket > jar
+    say "More biscuits than cookies!"
+end
+
+note Math with custom types
+put pocket + jar into total
+say "Total treats: " + total
+
+note Custom types make code fun and meaningful!
+put pocket + 2 biscuits into pocket
+say "Now I have " + pocket + " biscuits"

@@ -1,0 +1,9 @@
+note This is a simple counter program
+
+put "Iniya" into name
+
+
+repeat 10 times 
+    say name
+end
+
