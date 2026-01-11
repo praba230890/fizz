@@ -1,0 +1,28 @@
+note Playground example - Kids playing with custom types
+
+note Define types for playground
+kids are numbers
+swings are numbers
+slides are numbers
+name is letters
+
+note Setup playground
+put "Iniya" into name
+put 5 kids into playing
+put 2 swings into available
+put 1 slides into available
+
+say name + " is at the playground!"
+say "There are " + playing + " kids playing"
+say "Available: " + available + " swings and " + available + " slide"
+
+note More kids arrive
+put playing + 3 kids into playing
+say "Now " + playing + " kids are playing!"
+
+note Check if enough swings
+if playing > available
+    say "Not enough swings for everyone!"
+otherwise
+    say "Everyone can swing!"
+end

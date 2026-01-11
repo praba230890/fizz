@@ -1,0 +1,32 @@
+note Pet Shop - Managing pets with custom types
+
+note Define pet types
+puppies are numbers
+kittens are numbers
+bunnies are numbers
+petName is letters
+
+note Pets in the shop
+put 4 puppies into kennel
+put 5 kittens into catRoom
+put 3 bunnies into hutch
+
+say "Welcome to the Pet Shop!"
+say "We have:"
+say "  " + kennel + " puppies"
+say "  " + catRoom + " kittens"
+say "  " + hutch + " bunnies"
+
+note Someone adopts a puppy
+put kennel - 1 puppies into kennel
+say "A puppy was adopted!"
+say "Now we have " + kennel + " puppies"
+
+note New arrivals
+put catRoom + 2 kittens into catRoom
+say "2 new kittens arrived!"
+say "Now we have " + catRoom + " kittens"
+
+note Total pets
+put kennel + catRoom + hutch into totalPets
+say "Total pets in shop: " + totalPets

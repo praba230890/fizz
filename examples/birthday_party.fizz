@@ -1,0 +1,33 @@
+note Birthday Party - Planning with custom types
+
+note Define party types
+balloons are numbers
+candles are numbers
+age is a number
+name is letters
+
+note Party setup
+put "Sam" into birthdayKid
+put 7 age into kidsAge
+put 20 balloons into decorations
+put kidsAge candles into cake
+
+say birthdayKid + "'s Birthday Party!"
+say "Age: " + kidsAge
+say "Balloons: " + decorations
+say "Candles on cake: " + cake
+
+note More balloons!
+put decorations + 5 balloons into decorations
+say "Added more balloons! Now: " + decorations
+
+note Count everything
+put decorations + cake into partyItems
+say "Total party items: " + partyItems
+
+note Sing happy birthday
+repeat kidsAge times
+    say "Hip hip hooray!"
+end
+
+say "Happy Birthday " + birthdayKid + "!"

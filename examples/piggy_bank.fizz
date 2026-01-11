@@ -1,0 +1,31 @@
+note Piggy Bank - Saving money with custom types
+
+note Define money types
+coins are numbers
+dollars are numbers
+savings is a number
+
+note Starting amount
+put 5 coins into piggyBank
+say "Starting with " + piggyBank + " coins"
+
+note Save more each day
+put piggyBank + 2 coins into piggyBank
+say "Day 1: Saved 2 more, now have " + piggyBank + " coins"
+
+put piggyBank + 3 coins into piggyBank
+say "Day 2: Saved 3 more, now have " + piggyBank + " coins"
+
+put piggyBank + 1 coins into piggyBank
+say "Day 3: Saved 1 more, now have " + piggyBank + " coins"
+
+note Final count
+say "Total savings: " + piggyBank + " coins!"
+
+note Check goal
+put 15 coins into goal
+if piggyBank >= goal
+    say "You reached your goal!"
+otherwise
+    say "Keep saving!"
+end

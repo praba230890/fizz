@@ -1,0 +1,5 @@
+src
+include
+docs
+.vscode
+build.ps1

@@ -1,0 +1,21 @@
+note Bakery example - Using custom types for treats
+
+note Define our custom types
+cookies are numbers
+cupcakes are numbers
+total is a number
+
+note Baking treats
+put 12 cookies into jar
+put 6 cupcakes into box
+
+say "I baked " + jar + " cookies"
+say "I baked " + box + " cupcakes"
+
+note Calculate total treats
+put jar + box total into allTreats
+say "Total treats: " + allTreats
+
+note Eat some cookies
+put jar - 3 cookies into jar
+say "After eating some, " + jar + " cookies left"
